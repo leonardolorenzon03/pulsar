@@ -75,10 +75,6 @@ flexible messaging model and an intuitive client API.</description>
     <system>Github</system>
     <url>https://github.com/apache/pulsar/issues</url>
   </issueManagement>
-<properties>
-  <sonar.organization>leonardolorenzon03</sonar.organization>
-  <sonar.host.url>https://sonarcloud.io</sonar.host.url>
-</properties>
   <properties>
     <maven.compiler.source>17</maven.compiler.source>
     <maven.compiler.target>17</maven.compiler.target>
@@ -86,7 +82,8 @@ flexible messaging model and an intuitive client API.</description>
     <pulsar.client.compiler.release>8</pulsar.client.compiler.release>
 
     <pulsar.client.python.version>3.2.0</pulsar.client.python.version>
-
+    <sonar.organization>leonardolorenzon03</sonar.organization>
+    <sonar.host.url>https://sonarcloud.io</sonar.host.url>
     <!--config keys to configure test selection -->
     <include>**/Test*.java,**/*Test.java,**/*Tests.java,**/*TestCase.java</include>
     <exclude/>
